@@ -273,7 +273,7 @@ $("document").ready(function () {
   });
 
   $("#image_gallery").click(function () {
-    window.location.href = "./image.html";
+    window.location.href = "/image.html";
   });
 });
 

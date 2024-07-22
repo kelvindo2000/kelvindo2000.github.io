@@ -20,7 +20,7 @@ body {
   transform: rotate(50deg);
   position: relative;
   animation: shadow 1s infinite;
-  display: none;
+  /* display: none; */
 }
 
 
