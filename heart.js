@@ -1,7 +1,7 @@
-const electricHeartAudio = new Audio("heartbeat-electric.mp3");
+// const electricHeartAudio = new Audio("heartbeat-electric.mp3");
 const heartBeatAudio = new Audio("heartbeat-sound-effects-for-you-122458.mp3");
 
-electricHeartAudio.loop = true;
+// electricHeartAudio.loop = true;
 heartBeatAudio.loop = true;
 
 // setTimeout(() => {
@@ -40,4 +40,4 @@ setTimeout(() => {
   heartBeatAudio.pause();
   //
   window.location.href = '/birthday.html';
-}, 10000);
+}, 15000);
