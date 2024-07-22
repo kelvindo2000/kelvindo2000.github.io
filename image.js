@@ -115,3 +115,10 @@ document.onmousewheel = function (e) {
   radius += d;
   init(1);
 };
+
+const musicAudio = new Audio("Photograph.mp3");
+musicAudio.loop = true;
+
+document.onclick = function () {
+  musicAudio.play();
+}

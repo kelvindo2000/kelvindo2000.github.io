@@ -76,3 +76,18 @@ body {
 }
 
 /* ---------------------------------- */
+
+
+@keyframes fade {
+  0% {
+   opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.fade {
+  transition: all 1s linear;
+}

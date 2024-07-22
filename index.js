@@ -6,6 +6,7 @@ heartBeatAudio.loop = true;
 
 setTimeout(() => {
   // remove
+  document.querySelector(".electric-heart").classList.add('fade');
   document.querySelector(".electric-heart").style.display = "none";
   let links = document.getElementsByTagName("link");
   for (let i = 0; i < links.length; i++) {
@@ -25,9 +26,18 @@ setTimeout(() => {
 
   electricHeartAudio.pause();
   heartBeatAudio.play();
-}, 10000);
+}, 6000);
 
 
 document.onclick = function () {
   electricHeartAudio.play();
 }
+
+setTimeout(() => {
+  document.body.style.background = "black";
+  document.body.classList.add('fade');
+  document.body.style.opacity = 0;
+  heartBeatAudio.pause();
+  //
+  window.location.href = './birthday.html';
+}, 15000);
